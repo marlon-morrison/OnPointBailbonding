@@ -1,0 +1,164 @@
+/* .box {
+    border: 2px solid black;
+} */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #f1faee;
+}
+h1 {
+    font-family: 'Erica One', cursive;
+    font-size: 35px;
+}
+h2 {
+    border-left: 5px solid #e63946;
+    text-transform: capitalize;
+}
+h3 {
+    text-transform: capitalize;
+}
+p {
+    text-transform: capitalize;
+}
+a {
+    text-transform: capitalize;
+}
+/* start of header */
+header {
+    background: #a8dadc; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: 'Exo', sans-serif;
+}
+header a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+header a:hover {
+    border-bottom: 5px solid #e63946;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+header ul {
+    padding: 45px 0;
+    text-align: center;
+    margin: 0;
+}
+header li {
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+}
+@media (max-width: 613px) {
+    header li {
+        font-size: 18px
+  }
+}
+/* end of header */
+.alert {
+    background: #e63946;
+    color: #fff;
+    text-align: center;
+    
+}
+.alert a {
+    color: darkblue;
+}
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+@media (max-width: 766px) {
+    .hero {
+        text-align: center;
+    }
+}
+.hero img {
+    border-bottom-right-radius: 50%;
+    box-shadow: 10px 15px 10px #000, -4px 0px 4px #000;
+    /* opacity: 0.6; */
+}
+.hero p {
+    position: absolute;
+    background:rgba(255, 255, 255, 0.5);
+    top: 40px;
+    text-transform: capitalize;
+    color: #222;
+    border-left: 5px solid #e63946;
+    font-family: 'Exo', sans-serif;
+    font-size: 57px;
+}
+@media (max-width: 761px) {
+    .hero p {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1024px) {
+    .hero p {
+        font-size: 40px;
+    }
+}
+main a {
+    font-size: 15px;
+}
+main li {
+    margin-bottom: 7px;
+    
+}
+.img {
+display: block;
+width: 100%;
+height: auto;
+}
+/* start of footer  */
+footer {
+    background: #457b9d;
+}
+@media (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+}
+@media (max-width: 770px) {
+    footer {
+        padding-left: 0;
+    }
+}
+footer p {
+    color: #fff;
+}
+@media (max-width: 1197px) {
+    footer p {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #000;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    footer ul {
+text-align: center;
+    }
+}
+footer ul {
+    text-transform: capitalize;
+}
+footer li {
+    display: inline;
+    font-size: 20px;
+}
+.contact {
+    background: #1d3557;
+}
+/* end of footer  */
